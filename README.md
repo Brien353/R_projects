@@ -1,2 +1,2 @@
 # R_projects
-A project for exploring, visualizing, and analyzing data using R programming.
+This project focuses on performing data analysis using R programming and key libraries such as ggplot2, dplyr, tidyverse, and more. The goal is to explore datasets, clean and preprocess data, perform statistical analysis, and visualize insights effectively.
