@@ -1,0 +1,661 @@
+---
+title: "Trends and Insights: Registered Deaths of Men Due to Malignant Prostate Tumors
+  in Zacatecas (2010-2023)"
+author: "Brien Navarro"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#Registered deaths of men due to malignant prostate tumor in Zacatecas by usual residence of the deceased and five-year age group from 2010
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2010, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2010 is **3.1314%**, indicating that this percentage was the most frequently observed value across all age groups.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2010 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **12.77%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. In a dataset consisting of **94 recorded deaths**, this implies that for 50% of the groups, the mortality rate was lower than **12.77%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **68.22%**, indicating a moderate spread of the death percentages around the mean (**12.5%**).
+- The standard deviation (**SD**) is **8.26%**, suggesting moderate variation in mortality rates across different groups. Most values fall within **4.24% to 20.76%** (i.e., one standard deviation from the mean), showing the diversity in mortality rates across age groups or regions in Zacatecas.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 66.08%**, suggesting a high relative variability in prostate cancer mortality rates across different groups in Zacatecas. This indicates that the mortality rates are **not consistent** across regions or age groups.
+
+### **Skewness**
+A **skewness of 0.15** indicates that the distribution of death percentages is approximately symmetric but has a **slight positive skew**, meaning a few age groups or regions had **slightly higher** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value (0.2348) is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This means there is no significant evidence to suggest that the data is not normally distributed. 
+
+
+### **Bar Plot of Prostate Cancer Mortality Rates**
+
+*A bar plot visualizing the prostate cancer mortality rates in Zacatecas across different age groups is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2010.jpeg)
+
+### **Conclusion**
+Based on the statistical analysis, we conclude that the dataset follows an **approximately normal distribution**, with a **moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas in 2010. The **high CV** highlights significant variability in mortality rates across groups, while the **slightly positive skewness** suggests some regions or age groups had marginally higher mortality rates than others.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2011, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2011 is **15.73%**, indicating that this percentage was the most frequently observed value across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2011 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **12.92%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **12.92%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **12.96%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**12.5%**).
+- The standard deviation (**SD**) is **3.6%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **8.9% to 16.1%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high** compared to the previous year.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 28.8%**, indicating **low to moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2011 were more stable** compared to **2010**.
+
+### **Skewness**
+A **skewness of 0.65** indicates that the distribution of death percentages has a **moderate positive skew**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not extreme**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2011)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2011 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2011.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2011 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate more stable mortality rates compared to 2010**, while the **positive skewness suggests that some groups experienced slightly higher mortality rates**. Overall, the mortality distribution in 2011 appears more **consistent and less variable** than in 2010.
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2012, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2012 is **1.94%**, indicating that this percentage was the most frequently observed value across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2012 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **8.74%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **8.74%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **14.13%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**12.5%**).
+- The standard deviation (**SD**) is **3.76%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **8.74% to 16.26%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high**.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 30.08%**, indicating **low to moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2012 were more stable** compared to **2010**, but **less stable** than in **2011**.
+
+### **Skewness**
+A **skewness of 0.65** indicates that the distribution of death percentages has a **moderate positive skew**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not extreme**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2012)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2012 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2012.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2012 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate more stable mortality rates compared to 2010**, but **less stable compared to 2011**, while the **positive skewness suggests that some groups experienced slightly higher mortality rates**. Overall, the mortality distribution in 2012 appears relatively **consistent but slightly more variable than in 2011**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2013, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2013 is **1.94%**, indicating that this percentage was the most frequently observed value across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2013 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **11.79%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **11.79%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **11.15%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**12.5%**).
+- The standard deviation (**SD**) is **3.34%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **9.16% to 15.84%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high**.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 26.72%**, indicating **low to moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2013 were more stable** compared to previous years.
+
+### **Skewness**
+A **skewness of 0.22** indicates that the distribution of death percentages has a **slight positive skew**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2013)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2013 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2010.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2013 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate more stable mortality rates compared to previous years**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2013 appears relatively **consistent and more stable compared to previous years**.
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2014, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2014 is **5.46%**, indicating that this percentage was the most frequently observed value across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2014 is **12.4%**. This suggests that, on average, **12.4% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **8.59%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **8.59%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **15.36%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**12.4%**).
+- The standard deviation (**SD**) is **3.92%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **8.48% to 16.32%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high**.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 31.62%**, indicating **low to moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2014 were more stable** compared to previous years.
+
+### **Skewness**
+A **skewness of 0.7** indicates that the distribution of death percentages has a **small positive skew**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2014)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2014 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2014.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2014 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate more stable mortality rates compared to previous years**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2014 appears relatively **consistent and more stable compared to previous years**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2015, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2015 is **20.58%**, indicating that this percentage was the most frequently observed value across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2015 is **14.29%**. This suggests that, on average, **14.29% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **11.76%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **11.76%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **14.82%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**14.29%**).
+- The standard deviation (**SD**) is **3.85%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **10.97% to 18.85%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high**.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 25.97%**, indicating **moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2015 were more stable** compared to **2014**.
+
+### **Skewness**
+A **skewness of 0.19** indicates that the distribution of death percentages has a **moderate positive skew**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2015)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2015 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2015.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2015 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate more stable mortality rates compared to 2014**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2015 appears relatively **consistent and more stable compared to previous years**.
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2016, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2016 is **1.68%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2016 is **14.29%**. This suggests that, on average, **14.29% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **15.97%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **15.97%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Variance and Standard Deviation**
+- The variance of the data is **14.59%**, indicating a **low to moderate spread** in the mortality percentages around the mean (**14.29%**).
+- The standard deviation (**SD**) is **3.82%**, suggesting a **low to moderate variation** in mortality rates across different groups. Most values fall within **10.47% to 18.11%** (i.e., one standard deviation from the mean), showing that the diversity in mortality rates is **not very high**.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 26.73%**, indicating **low to moderate relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2016 were slightly less stable** compared to **2015**.
+
+### **Skewness**
+A **skewness of -0.16** indicates that the distribution of death percentages has a **small left tail**, meaning that some regions or age groups had **slightly lower-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2016)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2016 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2016.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2016 follows an **approximately normal distribution**, with a **low to moderate spread** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate slightly less stable mortality rates compared to 2015**, while the **negative skewness suggests that some groups experienced slightly lower mortality rates**. Overall, the mortality distribution in 2016 appears relatively **consistent but with minor variations from previous years**.
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2017, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2017 is **0.79%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2017 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **11.9%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **11.9%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.9%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **1.6% to 23.4%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 87.2%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2017 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.41** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2017)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2017 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2017.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2017 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2017 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2018, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2018 is **25.45%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2018 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **10.91%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **10.91%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.26%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **2.24% to 22.76%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 82.08%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2018 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.16** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2018)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2018 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2018.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2018 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2018 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2019, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2019 is **1.76%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2019 is **11.11%**. This suggests that, on average, **11.11% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **7.96%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **7.96%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.29%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **0.82% to 21.4%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 92.61%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2019 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.52** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2019)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2019 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2019.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2019 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2019 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2020, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2020 is **12.14%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2020 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **12.14%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **12.14%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.37%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **2.13% to 22.87%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 82.96%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2020 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.47** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2020)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2020 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2020.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2020 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2020 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2021, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2021 is **0.72%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2021 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **10.58%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **10.58%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.96%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **1.54% to 23.46%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 87.68%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2021 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.48** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2021)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2021 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2021.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2021 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2021 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2022, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2022 is **6.48%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2022 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **8.8%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **8.8%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **11.35%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **1.15% to 23.85%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 90.68%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2022 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.93** indicates that the distribution of death percentages has a **larger right tail**, meaning that some regions or age groups had **higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2022)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2022 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2022.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2022 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **larger positive skewness suggests that some groups experienced significantly higher mortality rates**. Overall, the mortality distribution in 2022 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+# **Statistical Analysis of Prostate Cancer Mortality (2023, Zacatecas)**
+
+## **Central Tendency Measures**
+
+### **Mode**
+The mode of prostate cancer mortality rates in 2023 is **1.66%**, representing the most frequently observed percentage of deaths due to malignant prostate cancer across all age groups in Zacatecas.
+
+### **Mean**
+The mean percentage of deaths due to prostate cancer in 2023 is **12.5%**. This suggests that, on average, **12.5% of total deaths** recorded in the dataset were attributed to malignant prostate cancer across all age groups.
+
+### **Median**
+The median mortality percentage is **10.83%**, meaning that **half of the observations** in the dataset fall below this percentage, while the other half are above it. This implies that 50% of the groups had a mortality rate lower than **10.83%**, while the other half had rates exceeding this value.
+
+## **Dispersion Measures**
+
+### **Standard Deviation**
+- The standard deviation (**SD**) is **10.04%**, suggesting a **high variation** in mortality rates across different groups. Most values fall within **2.46% to 22.54%** (i.e., one standard deviation from the mean), indicating a **substantial diversity** in mortality measurements across different age groups or regions.
+
+### **Coefficient of Variation (CV)**
+The **coefficient of variation (CV) is 80.32%**, indicating **high relative variability** in prostate cancer mortality rates across different groups in Zacatecas. This suggests that the mortality rates in **2023 were highly dispersed**.
+
+### **Skewness**
+A **skewness of 0.32** indicates that the distribution of death percentages has a **small right tail**, meaning that some regions or age groups had **slightly higher-than-average** mortality rates. However, the difference is **not substantial**.
+
+## **Test for Normality**
+Since the **p-value is greater than 0.05**, we **fail to reject the null hypothesis** of the Shapiro-Wilk test. This suggests that there is **no significant evidence** to indicate that the data deviates from a normal distribution, meaning we can assume the data is approximately **normally distributed**.
+
+## **Visualization**
+
+### **Bar Plot of Prostate Cancer Mortality Rates (2023)**
+
+*A bar plot visualizing the prostate cancer mortality rates across different age groups or regions in 2023 is presented below:*
+
+![Prostate Cancer Mortality Bar Plot](C:/Users/DELL/Downloads/barplots/prostate_cancer_2023.jpeg)
+
+## **Conclusion**
+Based on the statistical analysis, we conclude that the dataset for 2023 follows an **approximately normal distribution**, with **high variability and dispersion** in prostate cancer mortality rates across different age groups or regions in Zacatecas. The **CV and SD values indicate that mortality rates varied widely across groups**, while the **slight positive skewness suggests that some groups experienced marginally higher mortality rates**. Overall, the mortality distribution in 2023 appears **highly diverse** and **more dispersed compared to previous years**.
+
+
+
+
+
+# **Summary of Prostate Cancer Mortality in Zacatecas (2010-2023)**
+
+## **Overview**
+This report summarizes the trends in prostate cancer mortality in Zacatecas from **2010 to 2023**, highlighting key statistical features such as **mode, mean, median, dispersion measures, and normality tests**. The analysis provides insights into the stability, variability, and trends in mortality rates across different years.
+
+## **Key Findings**
+
+### **1. Central Tendency Trends**
+- The **mean mortality percentage** remained relatively stable over the years, fluctuating around **12.5%**.
+- The **mode varied significantly**, with years like **2018 (25.45%) and 2015 (20.58%)** showing **higher frequent mortality rates**, while years like **2017 (0.79%) and 2019 (1.76%)** recorded **much lower common rates**.
+- The **median mortality percentage** also fluctuated, with the highest at **15.97% in 2016** and the lowest at **7.96% in 2019**.
+
+### **2. Variability and Dispersion**
+- **2017 and 2019 had the highest standard deviations**, indicating extreme variations in death rates among different groups.
+- **Coefficient of Variation (CV) peaked in 2019 (92.61%) and 2022 (90.68%)**, meaning these years had the most dispersed mortality rates.
+- The **most stable years** in terms of variation were **2011 (CV: 28.8%) and 2013 (CV: 26.72%)**, suggesting a more uniform distribution of deaths across different regions or age groups.
+
+### **3. Skewness and Distribution Shape**
+- Most years exhibited **positive skewness**, meaning a small portion of groups had disproportionately higher mortality rates.
+- **2022 (Skew: 0.93) and 2017 (Skew: 0.41)** had the most significant **right-tailed distributions**, meaning some regions had notably higher mortality rates than others.
+- **2016 (-0.16 skew) was the only year showing a slight left skew**, indicating a tendency for lower death rates among some groups.
+
+### **4. Normality of Data**
+- **All years passed the Shapiro-Wilk test**, meaning there was **no significant deviation from a normal distribution**.
+- This suggests that the mortality rates across different years can be assumed to follow an **approximately normal distribution**, making statistical comparisons and trend analysis more reliable.
+
+## **Conclusion**
+- **2010-2016 showed more stable mortality trends**, with **lower dispersion and moderate variability**.
+- **2017-2023 experienced increased fluctuations**, with some years having significantly **higher dispersion and variability**, indicating less consistency in death rates.
+- **2022 and 2019 had the most dispersed mortality rates**, whereas **2011 and 2013 had the most stable distributions**.
+- While **mortality percentages fluctuated**, the **overall mean remained close to 12.5%**, suggesting a relatively stable average mortality rate over time.
+
+## **Visualization**
+
+### **Trend of Prostate Cancer Mortality Rates (2010-2023)**
+
+*A visual representation of the trends in mortality rates over the years is shown below:*
+
+![Prostate Cancer Mortality Trend](C:/Users/DELL/Downloads/barplots/prostate_cancer_trend.jpeg)
+
+## **Final Remarks**
+Understanding these variations in prostate cancer mortality rates across different years helps in **identifying patterns, assessing risk factors, and informing health policies** to improve cancer prevention and treatment strategies in Zacatecas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
