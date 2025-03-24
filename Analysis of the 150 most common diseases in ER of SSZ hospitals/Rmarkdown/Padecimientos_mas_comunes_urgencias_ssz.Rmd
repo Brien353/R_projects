@@ -1,0 +1,216 @@
+---
+title: "Análisis de los 150 padecimientos más comunes atendidos en el servicio de Urgencias de la Secretaría de Salud de Zacatecas(SSZ) durante el año 2023"
+author: "Brien Navarro"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción
+
+El presente análisis tiene como objetivo describir y explorar los **150 padecimientos más comunes** que fueron atendidos en el **servicio de Urgencias** de la **Secretaría de Salud de Zacatecas (SSZ)** durante el año **2023**.
+
+Mediante técnicas de estadística descriptiva y exploratoria, se busca identificar:
+
+1. Los padecimientos con mayor frecuencia de atención.
+
+2. La distribución de los datos.
+
+3. La presencia de **valores atípicos**.
+
+4. La variabilidad entre las observaciones.
+
+
+Este análisis permitirá una mejor comprensión de los **principales motivos de consulta en urgencias**, lo cual es clave para la planificación de recursos, la toma de decisiones médicas y la mejora de la atención en salud pública.
+
+## Descripción de los datos
+
+- **Fuente de los datos**: [Datos Abiertos del Gobierno de México - Urgencias 2023](https://datos.gob.mx/busca/dataset/urgencias/resource/3ed4df42-eed4-4d39-9e65-2be6a0a8f943)
+
+- **Total de observaciones**: 11,323 registros correspondientes a los 150 padecimientos más frecuentes en el servicio de urgencias de la Secretaría de Salud de Zacatecas durante el año 2023.
+
+- **Variables analizadas**:
+  - `n`: Frecuencia de cada padecimiento.
+  - `AFEC`: Nombre del padecimiento.
+
+## Análisis por Rangos de Frecuencia
+
+Para obtener una visión más detallada del comportamiento de los padecimientos atendidos en urgencias, se realizó un análisis agrupado por rangos de frecuencia, dividiendo los datos en subconjuntos de 10 en 10 posiciones en el ranking general.
+
+Los rangos analizados son los siguientes:
+
+- **Grupo 1:** Padecimientos del **1 al 10** más frecuentes.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(1,10).JPEG}
+\end{center}
+
+
+- **Grupo 2:** Padecimientos del **11 al 20**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(11-20).JPEG}
+\end{center}
+
+
+
+- **Grupo 3:** Padecimientos del **21 al 30**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(21,30).JPEG}
+\end{center}
+
+
+- **Grupo 4:** Padecimientos del **31 al 40**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(31,40).JPEG}
+\end{center}
+
+
+- **Grupo 5:** Padecimientos del **41 al 50**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(41,50).JPEG}
+\end{center}
+
+
+- **Grupo 6:** Padecimientos del **51 al 60**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(51,60).JPEG}
+\end{center}
+
+
+- **Grupo 7:** Padecimientos del **61 al 70**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(61,70).JPEG}
+\end{center}
+
+
+- **Grupo 8:** Padecimientos del **71 al 80**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(71,80).JPEG}
+\end{center}
+
+
+- **Grupo 9:** Padecimientos del **81 al 90**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(81,90).JPEG}
+\end{center}
+
+
+- **Grupo 10:** Padecimientos del **91 al 100**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(91,100).JPEG}
+\end{center}
+
+
+- **Grupo 11:** Padecimientos del **101 al 110**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(101,110).JPEG}
+\end{center}
+
+
+- **Grupo 12:** Padecimientos del **111 al 120**.
+
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(111,120).JPEG}
+\end{center}
+
+- **Grupo 13:** Padecimientos del **121 al 130**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(121,130).JPEG}
+\end{center}
+
+- **Grupo 14:** Padecimientos del **131 al 140**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(131,140).JPEG}
+\end{center}
+
+- **Grupo 15:** Padecimientos del **141 al 150**.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Padecimientos(141,150).JPEG}
+\end{center}
+
+---
+
+## Análisis por Rangos de Frecuencia
+
+La agrupación de los padecimientos en rangos de 10 en 10 permite realizar un análisis más detallado y comparativo de los datos. Esta metodología facilita:
+
+- **Visualizar las diferencias de frecuencia** entre los distintos grupos de padecimientos.
+- **Identificar tendencias descendentes** en el número de casos conforme se avanza en el ranking.
+- **Detectar la distribución de valores atípicos**, observando si se concentran en los primeros lugares o si también están presentes en los grupos intermedios o finales.
+- **Analizar la forma de la distribución** de frecuencias, ya sea en forma de escalones, agrupamientos o caídas abruptas.
+
+Cada grupo fue representado gráficamente mediante **diagramas de barras individuales**, lo cual permite observar de forma clara la frecuencia de atención de cada padecimiento dentro de su rango correspondiente. Esta representación visual contribuye a la **identificación de prioridades clínicas** en los servicios de urgencias.
+
+## Análisis de la distribución de los datos mediante un diagrama de caja.
+
+Para comprender mejor la distribución de los datos relacionados con la frecuencia de atención de los padecimientos, se utilizó un **diagrama de caja**. Esta herramienta gráfica permite identificar de manera visual la **dispersión**, la **asimetría** y la **presencia de valores atípicos** dentro del conjunto de datos.
+
+El análisis mediante este tipo de gráfico es fundamental para detectar variaciones importantes en las frecuencias, así como para decidir qué medidas estadísticas son más adecuadas para describir el comportamiento de los datos.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{C:/Users/DELL/Downloads/Proyecto_Urgencias/Urgencias_2023/Diagrama_de_caja_urgencias_ssz.JPEG}
+\end{center}
+
+
+## Conclusiones generales
+
+El análisis estadístico realizado sobre los 150 padecimientos más comunes atendidos en el servicio de urgencias de la Secretaría de Salud de Zacatecas (SSZ) durante el año 2023 permite obtener conclusiones relevantes para la gestión clínica y epidemiológica.
+
+En primer lugar, se identificó que los padecimientos con mayor frecuencia de atención fueron:
+
+1. Dolor agudo.  
+2. Faringitis aguda, no especificada.  
+3. Dolor abdominal localizado en parte superior.  
+4. Consulta, no especificada.  
+5. Infección de vías urinarias, sitio no especificado.  
+6. Hipertensión esencial (primaria).  
+7. Cefalea.  
+8. Rinofaringitis aguda [resfriado común].  
+9. Otras gastroenteritis y colitis de origen infeccioso.  
+10. Dolor localizado en otras partes inferiores del abdomen.
+
+Estos padecimientos, aunque fueron identificados como **valores atípicos estadísticos**, representan afecciones comunes en los servicios de urgencias. Su alta frecuencia es esperada y refleja una carga significativa para la atención médica aguda.
+
+En contraste, los padecimientos menos frecuentes fueron:
+
+I. Traumatismos múltiples, no especificados.  
+II. Luxación del codo, no especificada.  
+III. Choque, no especificado.  
+IV. Dolor precordial.  
+V. Colitis y gastroenteritis tóxicas.  
+VI. Absceso cutáneo, furúnculo y ántrax de glúteos.  
+VII. Cirrosis hepática alcohólica.  
+VIII. Otras diabetes mellitus especificadas, sin mención de complicación.  
+IX. Caries dental, no especificada.  
+X. Trombocitopenia no especificada.
+
+El análisis gráfico mediante un **diagrama de caja** reveló una distribución altamente asimétrica, con una marcada presencia de valores extremos en el extremo superior. Esta característica indica que existe una fuerte concentración de enfermedades con baja frecuencia, y solo unos pocos padecimientos con una frecuencia significativamente elevada.
+
+La **mediana** se ubicó en 43 casos y el **rango intercuartílico (IQR)** fue de 42, lo que sugiere una **variabilidad moderada a alta** en la frecuencia de atención entre los padecimientos.
+
+Finalmente, la distribución de los datos fue evaluada mediante la **prueba de normalidad de Shapiro-Wilk**, cuyos resultados arrojaron un **valor W = 0.5308** y un **p-valor < 0.05**, lo que permite **rechazar la hipótesis de normalidad**. Esto confirma que los datos no siguen una distribución normal, por lo que el uso de estadísticas robustas como la mediana y el IQR fue adecuado para este análisis.
+
+Este estudio proporciona una base sólida para la toma de decisiones en la **gestión hospitalaria**, priorización de recursos y definición de estrategias preventivas enfocadas en los padecimientos más prevalentes en urgencias.
+
