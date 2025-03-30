@@ -1,0 +1,134 @@
+---
+title: "Patrones Delictivos de Fuero Común en México: Análisis Estadístico de Homicidios Dolosos, Abuso Sexual y Feminicidios (2025)"
+author: "Brien Navarro"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Introducción
+
+El presente documento tiene como objetivo ofrecer un análisis estadístico descriptivo sobre las tasas de incidencia de delitos de fuero común en México, desglosadas por entidad federativa durante los meses de enero y febrero de 2025. La finalidad de este análisis es identificar las entidades con mayor proporción de incidencia en estos delitos y proporcionar una estimación de la media nacional de su ocurrencia.
+
+# Descripción de los datos
+
+- **Fuente de los datos**: [Datos Abiertos de Incidencia Delictiva – SESNSP](https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published)
+
+- **Total de observaciones**: 3,136 registros correspondientes a la incidencia de diversos delitos de fuero común ocurridos en cada entidad federativa durante los meses de enero y febrero de 2025.
+
+- **Variables analizadas**:
+  - `Entidad`:Nombre de la entidad federativa.
+  - `Tipo.de.delito`:Clasificación general del delito de fuero común.
+  - `Subtipo.de.delito`:Categoría específica dentro del tipo de delito.
+  - `Enero`:Número de casos registrados del subtipo de delito durante el mes de enero.
+  - `Febrero`:Número de casos registrados del subtipo de delito durante el mes de febrero.
+
+# Análisis Estadístico Descriptivo sobre la Incidencia de Delitos de Fuero Común en México por Entidad Federativa
+
+Dada la naturaleza categórica de la variable Entidad, se llevó a cabo un análisis estadístico basado en frecuencias, enfocado en tres delitos de fuero común de alto impacto: homicidios dolosos, feminicidios y abuso sexual. A continuación, se presentan los resultados más relevantes correspondientes a cada uno de estos delitos, desglosados por entidad federativa.
+
+# Homicidios dolosos
+
+Los homicidios dolosos representan una de las manifestaciones más graves de violencia en el país. En este análisis, se examina la distribución de este delito por entidad federativa durante enero y febrero de 2025. Se identifican las entidades con mayor y menor incidencia, así como su contribución al total nacional.
+
+# Mes de enero
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Homicidio_doloso_E.JPEG}
+\end{center}
+
+# Mes de febrero
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Homicidio_doloso_F.JPEG}
+\end{center}
+
+# Feminicidios
+
+El feminicidio es una forma extrema de violencia de género y un indicador crítico en materia de seguridad y derechos humanos. Se analiza la frecuencia de feminicidios registrados en cada entidad federativa durante el periodo observado, destacando aquellas con mayor concentración de casos.
+
+# Mes de enero
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Feminicidios_E.JPEG}
+\end{center}
+
+# Mes de febrero
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Feminicidio_F.JPEG}
+\end{center}
+
+
+
+
+
+
+
+# Abuso sexual
+
+El delito de abuso sexual afecta gravemente la integridad física y emocional de las víctimas, en su mayoría mujeres, niñas y niños. El análisis se centra en la frecuencia de registros por entidad federativa, permitiendo identificar zonas con alta incidencia.
+
+
+# Mes de enero
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Abuso_E.JPEG}
+\end{center}
+
+# Mes de febrero
+\begin{center}
+\includegraphics[width=0.6\textwidth]{C:/Users/DELL/Downloads/Abuso_F.JPEG}
+\end{center}
+
+# Conclusiones
+
+# Conclusión: Homicidios Dolosos
+
+De acuerdo con el análisis estadístico realizado, se concluye que la entidad federativa con mayor incidencia de homicidios dolosos fue **Guanajuato** durante el mes de **enero de 2025**, registrando un total de **273 casos**. Este valor se encuentra significativamente por encima del **promedio nacional** para dicho mes, estimado en **62 casos por entidad federativa en enero** y **[valor febrero] casos en febrero**.
+
+El análisis conjunto de los meses de enero y febrero revela una **tendencia de disminución** en la ocurrencia de este delito a nivel nacional, con variaciones importantes entre entidades federativas. Esta situación resalta la necesidad de reforzar estrategias de prevención, atención a víctimas y seguridad en la mayoría de las entidades federativas en México, especialmente en las regiones con mayores niveles de incidencia.
+
+# Conclusión: Feminicidios
+
+De acuerdo con el análisis estadístico realizado, se concluye que la entidad federativa con mayor incidencia de feminicidios fue **Estado de México** durante el mes de **enero de 2025**, registrando un total de **7 casos**. Este valor se encuentra significativamente por encima del **promedio nacional**, estimado en **1.65 casos por entidad federativa en enero** y **1.40 casos en febrero**.
+
+El análisis conjunto de los meses de enero y febrero revela una **tendencia de disminución** en la ocurrencia de este delito a nivel nacional, con variaciones importantes entre entidades federativas. Esta situación resalta la necesidad de reforzar estrategias de prevención, atención a víctimas y acciones focalizadas en la erradicación de este tipo de violencia, especialmente en las regiones con mayores niveles de incidencia.
+
+# Conclusión: Abuso Sexual
+
+De acuerdo con el análisis estadístico realizado, se concluye que la entidad federativa con mayor incidencia de abuso sexual fue **Jalisco** durante el mes de **enero de 2025**, registrando un total de **410 casos**. Este valor se encuentra significativamente por encima del **promedio nacional**, estimado en **75.40 casos por entidad federativa en enero** y **81.87 casos en febrero**.
+
+El análisis conjunto de los meses de enero y febrero revela una **tendencia de aumento** en la ocurrencia de este delito a nivel nacional, con variaciones importantes entre entidades federativas. Esta situación resalta la necesidad de reforzar estrategias de prevención, atención a víctimas, y educación en materia de prevención, especialmente en las regiones con mayores niveles de incidencia.
+
+# Estrategias para la Prevención y Atención
+
+## Para Disminuir los Homicidios Dolosos
+
+- Desarrollo de inteligencia policial y combate al crimen organizado.
+- Control efectivo de armas de fuego y campañas de desarme.
+- Prevención social de la violencia en comunidades vulnerables.
+- Fortalecimiento de las policías locales y coordinación interinstitucional.
+- Justicia pronta y efectiva contra los responsables de homicidios.
+
+## Para Prevenir los Feminicidios
+
+- Sistemas de alerta temprana y seguimiento de mujeres en riesgo.
+- Fortalecimiento de refugios y redes de protección.
+- Educación con enfoque de género desde la niñez.
+- Capacitación con perspectiva de género a operadores de justicia.
+- Fiscalías especializadas y procesos ágiles en casos de violencia feminicida.
+
+## Para Reducir el Abuso Sexual
+
+- Educación integral en sexualidad desde etapas tempranas.
+- Campañas de concientización sobre abuso y consentimiento.
+- Fortalecimiento de los canales de denuncia y protección.
+- Acompañamiento psicológico, médico y legal a víctimas.
+- Supervisión y regulación en entornos de riesgo.
+
+---
+
+> *Este análisis busca servir como base para la toma de decisiones informadas y el diseño de políticas públicas focalizadas en la reducción de los delitos de fuero común en México.*
